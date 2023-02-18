@@ -11,18 +11,19 @@ int main(void)
 
 {
 
-					char ch;
+		char ch;
 
-					for (ch = 'a'; ch <= 'z'; ch++)
+		for (ch = 'a'; ch <= 'z'; ch++)
 
-					{
-						putchar(ch);
+		{
+			putchar(ch);
 
-					}
+		}
 
-			putchar('\n');
+		putchar('\n');
 
-			return (0);
+		return (0);
 
 }
+
 
