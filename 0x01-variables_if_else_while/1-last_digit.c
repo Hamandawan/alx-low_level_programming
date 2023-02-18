@@ -1,39 +1,28 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - Entry
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
  *
- * Return: Always (0) success
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 
 {
-	int n;
-	int a;
 
-	srand(time(0));
-	n = rand() -RAND_MAX / 2;
-	a = n % 10;
+					char ch;
 
-	if (a > 5)
+					for (ch = 'a'; ch <= 'z'; ch++)
 
-	{
-		printf("Last digit of %d is %d and is grater than 5\n", n ,a);
+					{
+						putchar(ch);
 
-	}
+					}
 
-	else if (a == 0)
+			putchar('\n');
 
-	{
-		printf("Last digit 0f %d is %d and is 0\n", n ,a);
+			return (0);
 
-	}
+}
 
-	else
-
-	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n" ,n ,a);
-
-	}
-	return (0);
