@@ -1,25 +1,24 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
-#include <stdio.h>
+#include "main.h"
+
+
 
 /**
- * positive_or_negative -  checks  if the value is positive, negative or zero
- *it executes, and prints it
- *
- * Return: Always 0 (Success)
+ * main - Test function for positive or negative
+ * Return: 0
  */
-void positive_or_negative(int i)
+
+
+
+int main(void)
 {
 
-/* your code goes there */
-if (i > 0)
-printf("%d is positive\n", i);
+	int i;
 
-else if (i == 0)
-printf("%d is zero\n", i);
 
-else
-printf("%d is negative\n", i);
+	i = 0;
+	positive_or_negative(i);
+
+
+	return (0);
 }
 
