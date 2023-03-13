@@ -1,5 +1,7 @@
 #include <stdlib.h>
-#include "holberton.h"
+#include <stdlib.h>
+#include "main.h"
+
 
 /**
  * free_grid - frees the memory allocate for the grid
