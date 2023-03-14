@@ -23,12 +23,13 @@ int count_word(char *s)
 				flag = 1;
 			{
 
-			w++;
+		
+				w++;
+			return (0);	
 		}
 	}
-
-	return void (NULL);
 }
+
 /**
  * **strtow - splits a string into words
  * @str: string to split
