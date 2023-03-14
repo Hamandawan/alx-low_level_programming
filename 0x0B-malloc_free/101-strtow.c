@@ -1,5 +1,6 @@
 #include <stdlib.h>
-#include "holberton.h"
+#include "main.h"
+
 
 /**
  * count_word - helper function to count the number of words in a string
