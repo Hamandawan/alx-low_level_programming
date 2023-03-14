@@ -27,7 +27,7 @@ int count_word(char *s)
 		}
 	}
 
-	return (w);
+	return void (NULL);
 }
 /**
  * **strtow - splits a string into words
@@ -78,4 +78,3 @@ char **strtow(char *str)
 
 	return (matrix);
 }
-i
